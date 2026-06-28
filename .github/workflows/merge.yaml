@@ -1,0 +1,46 @@
+# Copyright 2026 BitWise Media Group Ltd
+# SPDX-License-Identifier: MIT
+
+# Auto-merge pipeline — fast-forward merges that preserve every commit signature via the
+# org "FF Merge" App. `/merge` merges an approved, green PR now; `/auto-merge` (or adding
+# the `auto-merge` label) arms it to merge automatically once approved and green. Pairs
+# with merge-review-ack.yaml, which turns an approval into a merge attempt (fork PRs too).
+#
+# Prerequisites (one-time, org-wide — see bitwise-media-group/ff-merge):
+#   - org variable FF_MERGE_CLIENT_ID and org secret FF_MERGE_PRIVATE_KEY
+#   - the "FF Merge" App installed on this repo and in the ruleset bypass list
+#   - branch protection that requires PR review (so an approval sets the review decision)
+#
+# Pinned to @v3 — see the github-workflows README "Pinning".
+
+name: Merge
+
+# issue_comment drives `/merge` and arms `/auto-merge`; workflow_run(completed) attempts
+# the auto-merge once the PR is approved and green; the hourly schedule sweeps armed PRs
+# as a backstop. None of these attach a check run to the PR head, so no skipped-job clutter.
+on:
+  issue_comment:
+    types: [created]
+  workflow_run:
+    # Every check that must be green before a merge attempt, plus "Merge Review Ack" so an
+    # approval completes the merge. There is no CI workflow here yet — add its name to this
+    # list when one is introduced. ff-merge re-verifies all required checks at merge time.
+    workflows: ["Merge Review Ack"]
+    types: [completed]
+  schedule:
+    # Backstop sweep of armed PRs for any missed event trigger.
+    - cron: "17 * * * *"
+
+# the App token does the privileged work; the caller grants nothing
+permissions: {}
+
+jobs:
+  merge:
+    uses: bitwise-media-group/github-workflows/.github/workflows/merge.yaml@v3
+    with:
+      app-client-id: ${{ vars.FF_MERGE_CLIENT_ID }}
+      # merge-command: /merge     # default — the comment that merges now
+      # arm-command: /auto-merge  # default — the comment that arms auto-merge
+      # label: auto-merge         # default — the label that arms auto-merge
+    secrets:
+      app-private-key: ${{ secrets.FF_MERGE_PRIVATE_KEY }}
