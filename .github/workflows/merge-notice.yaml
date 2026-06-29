@@ -1,0 +1,31 @@
+# Copyright 2026 BitWise Media Group Ltd
+# SPDX-License-Identifier: MIT
+
+# Merge notice — posts a one-time comment when a PR is opened, explaining this repo merges
+# by fast-forward (a maintainer comments `/merge`; see merge.yaml) so newcomers don't reach
+# for the GitHub merge button. Companion to merge.yaml and merge-review-ack.yaml.
+#
+# Triggers on pull_request_target (not pull_request) so the notice reaches fork PRs too,
+# where it matters most. This is the SAFE use of that elevated trigger: the reusable
+# workflow never checks out or runs PR code and interpolates no PR-controlled content — it
+# only posts a static comment with the run's GITHUB_TOKEN, scoped to pull-requests:write.
+# No App token or secret is needed.
+#
+# Pinned to a full commit SHA on the v4 line (the trailing "# v4.0.0" is the human-readable
+# tag) — see the github-workflows README "Pinning".
+
+name: Merge Notice
+
+on: # zizmor: ignore[dangerous-triggers] -- required: notice must reach fork PRs; only posts a static comment, no PR code is run
+  pull_request_target:
+    types: [opened]
+
+# the reusable workflow comments with GITHUB_TOKEN; grant just that
+permissions:
+  pull-requests: write
+
+jobs:
+  notice:
+    uses: bitwise-media-group/github-workflows/.github/workflows/merge-notice.yaml@4a154ffd7efbb6aff856386ec1def4b6dc364672 # v4.0.0
+    with:
+      pr-number: ${{ github.event.pull_request.number }}
