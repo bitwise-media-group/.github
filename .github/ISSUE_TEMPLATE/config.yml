@@ -12,8 +12,3 @@ contact_links:
     about: >-
       Questions, ideas, and open-ended conversations live in Discussions, not the issue
       tracker. Start here — we're happy to help.
-  - name: 🔒 Report a security vulnerability
-    url: https://github.com/bitwise-media-group/.github/security/policy
-    about: >-
-      Never file security issues publicly. Report privately via the affected repository's
-      Security tab → "Report a vulnerability".
