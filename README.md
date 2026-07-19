@@ -28,14 +28,19 @@
   &nbsp;·&nbsp;
   <a href="https://oss.bitwisemedia.uk/evolve/">evolve</a>
   &nbsp;·&nbsp;
-  <a href="https://oss.bitwisemedia.uk/dotty/">dotty</a>
+  <a href="https://oss.bitwisemedia.uk/patchy/">patchy</a>
   &nbsp;·&nbsp;
   <a href="https://oss.bitwisemedia.uk/gh-claude/">gh-claude</a>
+  &nbsp;·&nbsp;
+  <a href="https://oss.bitwisemedia.uk/dotty/">dotty</a>
+  
 </p>
 
 <p align="center">
   <a href="https://oss.bitwisemedia.uk/"><img alt="bitwise — open source projects from BitWise Media Group, built with AI, in the open, under MIT" src="https://oss.bitwisemedia.uk/assets/card-bitwise.svg" width="224" /></a>
   <a href="https://oss.bitwisemedia.uk/evolve/"><img alt="evolve — evaluate coding-agent plugins across every model" src="https://oss.bitwisemedia.uk/assets/card-evolve.svg" width="224" /></a>
-  <a href="https://oss.bitwisemedia.uk/dotty/"><img alt="dotty — a precise, technical dotfile and config engine" src="https://oss.bitwisemedia.uk/assets/card-dotty.svg" width="224" /></a>
+  <a href="https://oss.bitwisemedia.uk/patchy/"><img alt="patchy - security findings in, review-ready patches out — GitHub issues coordinate isolated coding agents. Humans merge every fix." src="https://oss.bitwisemedia.uk/assets/card-patchy.svg" width="224" /></a>
   <a href="https://oss.bitwisemedia.uk/gh-claude/"><img alt="gh-claude — temporary, read-only GitHub credentials for Claude Code, issued on demand and expired by design" src="https://oss.bitwisemedia.uk/assets/card-gh-claude.svg" width="224" /></a>
+  <a href="https://oss.bitwisemedia.uk/dotty/"><img alt="dotty — a precise, technical dotfile and config engine" src="https://oss.bitwisemedia.uk/assets/card-dotty.svg" width="224" /></a>
 </p>
+
