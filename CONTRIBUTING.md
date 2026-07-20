@@ -15,11 +15,11 @@ acceptable here.
 
 ## Using AI
 
-We build with AI and encourage you to as well — coding agents and assistants are welcome on every contribution. One
-rule doesn't bend, though:
+We build with AI and encourage you to as well — coding agents and assistants are welcome on every contribution. One rule
+doesn't bend, though:
 
-> **You must understand your code** — if you can't explain what a change does and how it fits the wider system
-> _without_ an AI tool, it isn't ready to submit.
+> **You must understand your code** — if you can't explain what a change does and how it fits the wider system _without_
+> an AI tool, it isn't ready to submit.
 
 AI is a tool for writing _and_ learning; use it to understand a change, not to skip understanding it. When you
 [sign off and sign your commits](#signing-and-signing-off-every-commit), you certify the work is yours to submit, and
@@ -74,8 +74,9 @@ arrive as pull requests from your own fork.
    ```
 
 4. **Make your changes**, then run the repository's checks (see [Before you commit](#before-you-commit)).
-5. **Commit** using [Conventional Commits](#commit-messages). Every commit must be [signed off and
-   signed](#signing-and-signing-off-every-commit) — once signing is configured, `-s` adds the sign-off and Git signs:
+5. **Commit** using [Conventional Commits](#commit-messages). Every commit must be
+   [signed off and signed](#signing-and-signing-off-every-commit) — once signing is configured, `-s` adds the sign-off
+   and Git signs:
 
    ```bash
    git commit -s -m "docs: fix typo in the README"
@@ -179,8 +180,8 @@ The sign-off appends a trailer using your configured name and email:
 Signed-off-by: Jane Doe <jane@example.com>
 ```
 
-The name and email **must match** your commit author details (and a verified email on your GitHub account), so make
-sure they're set:
+The name and email **must match** your commit author details (and a verified email on your GitHub account), so make sure
+they're set:
 
 ```bash
 git config --global user.name "Jane Doe"
@@ -228,8 +229,8 @@ git config --global commit.gpgsign true
 ```
 
 Then add that same key to GitHub a second time as a _Signing key_ (Settings → SSH and GPG keys → New SSH key → key type
-**Signing Key**). GitHub will mark your commits **Verified**. Prefer GPG or S/MIME? GitHub's
-[commit signature verification docs][signing] cover every option.
+**Signing Key**). GitHub will mark your commits **Verified**. Prefer GPG or S/MIME? GitHub's [commit signature
+verification docs][signing] cover every option.
 
 With `commit.gpgsign` enabled, `git commit -s` both signs and signs off. Note that signing (`-S`) and sign-off (`-s`)
 are different things — we require both, so don't drop the `-s`. Made commits before configuring this? Re-sign and sign
@@ -267,7 +268,8 @@ live there rather than in the issue tracker, and we're happy to help. Thanks aga
 
 [org]: https://github.com/bitwise-media-group
 [discussions]: https://github.com/orgs/bitwise-media-group/discussions
-[fork-pull]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model
+[fork-pull]:
+  https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model
 [conventional]: https://www.conventionalcommits.org/
 [release-please]: https://github.com/googleapis/release-please
 [dco]: https://developercertificate.org/

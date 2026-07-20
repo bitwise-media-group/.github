@@ -35,5 +35,5 @@ Closes #
 - [ ] My commits follow [Conventional Commits](https://www.conventionalcommits.org/).
 - [ ] This PR covers a single concern; unrelated changes are split out.
 - [ ] I've updated documentation where the change calls for it.
-- [ ] I understand this code and can explain what it does — and how it fits the wider system —
-      without an AI tool ([AI policy](https://github.com/bitwise-media-group/.github/blob/main/AI_POLICY.md)).
+- [ ] I understand this code and can explain what it does — and how it fits the wider system — without an AI tool
+      ([AI policy](https://github.com/bitwise-media-group/.github/blob/main/AI_POLICY.md)).

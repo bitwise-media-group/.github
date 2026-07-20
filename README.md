@@ -33,7 +33,7 @@
   <a href="https://oss.bitwisemedia.uk/gh-claude/">gh-claude</a>
   &nbsp;·&nbsp;
   <a href="https://oss.bitwisemedia.uk/dotty/">dotty</a>
-  
+
 </p>
 
 <p align="center">
@@ -43,4 +43,3 @@
   <a href="https://oss.bitwisemedia.uk/gh-claude/"><img alt="gh-claude — temporary, read-only GitHub credentials for Claude Code, issued on demand and expired by design" src="https://oss.bitwisemedia.uk/assets/card-gh-claude.svg" width="224" /></a>
   <a href="https://oss.bitwisemedia.uk/dotty/"><img alt="dotty — a precise, technical dotfile and config engine" src="https://oss.bitwisemedia.uk/assets/card-dotty.svg" width="224" /></a>
 </p>
-

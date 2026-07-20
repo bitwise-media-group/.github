@@ -1,21 +1,21 @@
 # AI policy
 
 We build with AI, and we want you to as well. Coding agents, autocomplete, and chat assistants are genuinely useful
-tools, and using them to write, refactor, debug, and *learn* is encouraged across every Bitwise Media Group repository.
+tools, and using them to write, refactor, debug, and _learn_ is encouraged across every Bitwise Media Group repository.
 
-But a tool is only as good as the person driving it. This policy exists to keep the bar high while keeping the door
-wide open: **use AI all you like, as long as you understand and can stand behind what you submit.**
+But a tool is only as good as the person driving it. This policy exists to keep the bar high while keeping the door wide
+open: **use AI all you like, as long as you understand and can stand behind what you submit.**
 
 ## The critical rule
 
 **You must understand your code.**
 
-If you cannot explain what a change does and how it interacts with the rest of the system *without* the help of an AI
+If you cannot explain what a change does and how it interacts with the rest of the system _without_ the help of an AI
 tool, it is not ready to submit. That is the whole rule — everything else here follows from it.
 
-This isn't anti-AI; it's how we keep our projects maintainable and how you actually get better. Use an agent with
-access to the codebase, interrogate it, read what it produces, and keep going until you genuinely grasp the change and
-its edge cases. *Then* open the pull request.
+This isn't anti-AI; it's how we keep our projects maintainable and how you actually get better. Use an agent with access
+to the codebase, interrogate it, read what it produces, and keep going until you genuinely grasp the change and its edge
+cases. _Then_ open the pull request.
 
 ## You are accountable, not the AI
 
@@ -28,7 +28,7 @@ onto a maintainer, and it's the quickest way to erode trust (and have your contr
 
 ## Learn as you go
 
-Treat AI as a tutor, not an oracle. Ask it *why*, not just *what*. Every contribution should leave behind two things: a
+Treat AI as a tutor, not an oracle. Ask it _why_, not just _what_. Every contribution should leave behind two things: a
 better project, and a contributor who understands a little more than they did yesterday. If you finish a change having
 learned nothing from it, you've used the tool wrong.
 

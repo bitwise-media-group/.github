@@ -1,7 +1,7 @@
 # Security Policy
 
-This policy applies to every repository in the [Bitwise Media Group][org] organisation. Some repositories ship their
-own `SECURITY.md` with a product-specific threat model; where one exists, it takes precedence over this policy.
+This policy applies to every repository in the [Bitwise Media Group][org] organisation. Some repositories ship their own
+`SECURITY.md` with a product-specific threat model; where one exists, it takes precedence over this policy.
 
 ## Reporting a vulnerability
 

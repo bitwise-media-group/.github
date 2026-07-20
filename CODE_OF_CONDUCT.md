@@ -54,8 +54,8 @@ enforcement. As with [security reports](SECURITY.md), please keep reports privat
 issues, discussions, or pull requests. You can:
 
 - **Reach a maintainer directly** — contact a maintainer of the repository where the behaviour occurred, or
-- **Report to GitHub** — flag the offending content, account, or repository through GitHub's
-  [report abuse][report-abuse] flow, which alerts both GitHub and us.
+- **Report to GitHub** — flag the offending content, account, or repository through GitHub's [report
+  abuse][report-abuse] flow, which alerts both GitHub and us.
 
 All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the
 privacy and security of the reporter of any incident.
@@ -104,9 +104,8 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder][mozilla].
 
-For answers to common questions about this code of conduct, see the FAQ at
-<https://www.contributor-covenant.org/faq>. Translations are available at
-<https://www.contributor-covenant.org/translations>.
+For answers to common questions about this code of conduct, see the FAQ at <https://www.contributor-covenant.org/faq>.
+Translations are available at <https://www.contributor-covenant.org/translations>.
 
 [org]: https://github.com/bitwise-media-group
 [homepage]: https://www.contributor-covenant.org
