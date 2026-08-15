@@ -37,7 +37,7 @@ permissions:
 
 jobs:
   release:
-    uses: bitwise-media-group/github-workflows/.github/workflows/release.yaml@b3d4519a6d79376364184f0ca298685dcfa287f2 # v6.1.1
+    uses: bitwise-media-group/github-workflows/.github/workflows/release.yaml@1eaff010e2929a3583c50ffa325690216bc70462 # v6.2.0
     with:
       # Author the release PR as the "FF Merge" App so its branch push emits
       # workflow_run events — that lets the auto-merge in merge.yaml retrigger when the
