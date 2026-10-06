@@ -3,10 +3,11 @@
 
 # Continuous integration — thin caller for the org's reusable ci workflow (v5+:
 # mise-task aware). It discovers the canonical tasks this repo defines via
-# `mise tasks ls --name-only` and runs `make <target>` for each — here only
-# `lint` (addlicense + prettier + markdownlint + actionlint via the markdown-lib
-# archetype); build and test don't exist in this archetype and are skipped. The
-# pinned tooling installs via mise from the toolchain submodule at .mise/.
+# `mise tasks ls --name-only` and runs `mise run <task>` for each — here only
+# `lint` (addlicense + prettier + markdownlint + actionlint + zizmor from the
+# toolchain's common tasks); this common-only repo has no build or test task,
+# so those are skipped. The pinned tooling installs via mise from the toolchain
+# submodule at .mise/.
 #
 # Pinned to a full commit SHA (tag in the comment); Renovate keeps it fresh.
 name: Continuous Integration
