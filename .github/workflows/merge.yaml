@@ -19,7 +19,7 @@ name: Merge
 # issue_comment drives `/merge` and arms `/auto-merge`; workflow_run(completed) attempts
 # the auto-merge once the PR is approved and green; the hourly schedule sweeps armed PRs
 # as a backstop. None of these attach a check run to the PR head, so no skipped-job clutter.
-on:
+on: # zizmor: ignore[dangerous-triggers] -- required: workflow_run gates auto-merge on CI; no PR code is checked out or run
   issue_comment:
     types: [created]
   workflow_run:
