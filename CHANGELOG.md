@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/bitwise-media-group/.github/compare/v1.0.0...v1.0.1) (2026-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update bitwise-media-group/github-workflows action to v6.2.0 ([#36](https://github.com/bitwise-media-group/.github/issues/36)) ([77ccc8a](https://github.com/bitwise-media-group/.github/commit/77ccc8a3bed287f6ecca6f0203fc9a373c06d47d))
+* **deps:** update bitwise-media-group/github-workflows action to v6.3.0 ([#40](https://github.com/bitwise-media-group/.github/issues/40)) ([6b63d15](https://github.com/bitwise-media-group/.github/commit/6b63d1571ad553c13466d482ab7e11fd40f6c315))
+* **deps:** update bitwise-media-group/github-workflows action to v7.0.1 ([#45](https://github.com/bitwise-media-group/.github/issues/45)) ([cc03f79](https://github.com/bitwise-media-group/.github/commit/cc03f799a3f3d8263537fb547fc53025c7944fe8))
+* **deps:** update bitwise-media-group/github-workflows action to v8 ([#46](https://github.com/bitwise-media-group/.github/issues/46)) ([0049645](https://github.com/bitwise-media-group/.github/commit/00496451a9e19666618c793e14574b06502d895d))
+* **deps:** update bitwise-media-group/github-workflows action to v8.0.1 ([#47](https://github.com/bitwise-media-group/.github/issues/47)) ([e502e6c](https://github.com/bitwise-media-group/.github/commit/e502e6c6adfb280f4ed0321e5f11f362ffe7c3c7))
+* **deps:** update bitwise-media-group/github-workflows action to v8.1.0 ([#49](https://github.com/bitwise-media-group/.github/issues/49)) ([c32c00a](https://github.com/bitwise-media-group/.github/commit/c32c00ac38dcf2fb74af657da12a44bf6ccc51f9))
+
 ## 1.0.0 (2026-07-02)
 
 
